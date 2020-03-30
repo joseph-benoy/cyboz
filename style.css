@@ -1,0 +1,314 @@
+@font-face {
+  font-family: 'font1';
+  src: url(Modulario.ttf);
+}
+html
+{
+  scroll-behavior: smooth;
+}
+*
+{
+  margin: 0;
+  padding: 0;
+}
+/*------------navbar--------------*/
+.navbar
+{
+  background-image: linear-gradient(to right,#a517ba,#5f1782);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+}
+.navbar-brand
+{
+  color: white !important;
+  font-weight: bold;
+  font-family: 'font1';
+  font-size: 2em !important;
+}
+.navbar li a
+{
+  color: white !important;
+  font-weight: 500;
+  font-size: 1.1em !important;
+}
+.navbar li a:hover
+{
+  background-color: white;
+  color: #5f1782 !important;
+  text-decoration: none;
+  border-bottom: 5px solid #5f1782;
+  border-radius: 10px;
+}
+.navbar li a:focus
+{
+  background-color: white;
+  color: #5f1782 !important;
+  text-decoration: none;
+  border-bottom: 5px solid #5f1782;
+  border-radius: 10px;
+}
+#search
+{
+  color: white;
+  border-color: white;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  border-width: 2px;
+}
+#search:hover
+{
+  color: #753a88;
+  background-color: white;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.5);
+}
+.navbar-toggler
+{
+  border: 0 !important;
+  outline: none !important;
+}
+.fa-bars
+{
+  color: white;
+  font-size: 30px !important;
+}
+
+/*------------banner--------------*/
+
+#banner
+{
+  padding-top: 3%;
+  background-image: linear-gradient(to right,#a517ba,#5f1782);
+  color: white;
+  padding-bottom: 7%;
+}
+.promo-title
+{
+  font-size: 2.8em;
+  font-weight: 900;
+  margin-top: 13%;
+}
+.imga
+{
+  width: 40px;
+  height: 40px;
+}
+#banner a
+{
+  margin: 5%;
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+}
+.img-fluid
+{
+  margin-top: 5%;
+  width: 70%;
+}
+.wave
+{
+  margin-top: -270px;
+}
+@media screen and (max-width:600px) {
+  .wave
+  {
+    margin-top: -100px;
+  }
+}
+
+/*-----------------------------services----------------------------*/
+
+
+.list-title
+{
+  font-size: 2em;
+  font-weight: 500;
+  color: #5f1782;
+  text-align: center;
+  margin-top: 15%;
+}
+.under
+{
+  width: 220px;
+  height: 7px;
+  background-color: #5f1782;
+  margin: auto;
+  margin-bottom: 5%;
+}
+.services
+{
+  font-size: 1.5em;
+  padding-left: 5%;
+  padding-top: 7%;
+  font-weight: 420;
+  line-height: 1.5em;
+}
+#services
+{
+  width: 60em;
+}
+
+/*-----------------plans--------------------*/
+
+.underp
+{
+  width: 150px;
+  height: 7px;
+  background-color: #5f1782;
+  margin: auto;
+  margin-bottom: 5%;
+}
+.card
+{
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.3);
+  margin: auto;
+  margin-top: 5%;
+}
+.card-body ul
+{
+  margin-left: 12%;
+}
+.card-header
+{
+  text-align: center;
+  font-weight: 450;
+  font-size: 1.2em;
+}
+.card-title
+{
+  text-align: center;
+}
+.buy button
+{
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  border: 2px solid #5f1782;
+  font-weight: 450;
+  color: #5f1782;
+}
+.buy button:hover
+{
+  background-color: #5f1782;
+  border: 2px solid #5f1782;
+  color: white;
+}
+.buy button:focus
+{
+  background-color: #5f1782;
+  border: 2px solid #5f1782;
+  color: white;
+}
+/*------------------Testimonials-----------------*/
+#test
+{
+  background-image: linear-gradient(to right,#a517ba,#5f1782);
+  margin: auto;
+}
+.Testimonials
+{
+  margin-top: 15%;
+}
+.test
+{
+  width: auto;
+  height: 10em;
+  text-align: center;
+  margin: auto;
+  padding-top: 5%;
+  font-size: 1.4em;
+  color: white;
+}
+@media screen and (max-width:600px) {
+
+  #control1
+  {
+    display: none;
+  }
+  #control2
+  {
+    display: none;
+  }
+  #test
+  {
+    padding: 10%;
+    margin-top: 15%;
+  }
+}
+
+/*---------------call-to-action-------------------*/
+
+#btn
+{
+  background-image: linear-gradient(to right,#a517ba,#5f1782);
+  color: white !important;
+  font-size: 1.2em;
+  box-shadow: 0 2px 4px 2px rgba(0, 0, 0, 0.5) !important;
+  margin: 7%;
+  margin-left: 25%;
+  font-weight: 500;
+}
+#btn:focus
+{
+  box-shadow: 0 !important;
+  outline: none;
+}
+#form
+{
+  background-image: linear-gradient(to right,#a517ba,#5f1782);
+  height: 40%;
+  padding: 4%;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-bottom: 20%;
+  margin-top: 10%;
+}
+.form-control
+{
+  border: 2px solid #5f1782 !important;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.5);
+}
+#cta
+{
+  width: 40em;
+}
+@media screen and (max-width:600px) {
+  #form
+  {
+    padding-top: 10%;
+  }
+  #cta
+  {
+    display: none;
+  }
+}
+/*---------------footer------------------*/
+.footer
+{
+  background-image: linear-gradient(to right,#a517ba,#5f1782);
+  color: #fff;
+  padding-top: 3%;
+}
+.footera
+{
+  color: white;
+  font-size: 2em;
+  margin: 2%;
+}
+.add
+{
+  font-size: 1.2em;
+  padding-left: 40%;
+}
+#copy
+{
+  font-size: 1.2em;
+  font-weight: 450;
+}
+@media screen and (max-width:600px) {
+  .footer
+  {
+    padding-top: 7%;
+  }
+  .add
+  {
+    margin-top: 5%;
+    padding: 0;
+  }
+}
